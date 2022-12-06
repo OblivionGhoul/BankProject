@@ -4,4 +4,4 @@ project(BankProject)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(BankProject
-        main.cpp)
+        main.cpp BankAccount.h Bank.h CheckingAccount.h SavingAccount.h Account.h Alg.h)

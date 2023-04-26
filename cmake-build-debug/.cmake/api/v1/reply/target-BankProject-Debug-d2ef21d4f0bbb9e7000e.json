@@ -2,10 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "BankProject.exe"
-		},
-		{
-			"path" : "BankProject.pdb"
+			"path" : "BankProject"
 		}
 	],
 	"backtrace" : 1,
@@ -38,7 +35,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -fdiagnostics-color=always"
+					"fragment" : "-g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk"
 				},
 				{
 					"fragment" : "-std=gnu++14"
@@ -71,16 +68,12 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
-			},
-			{
-				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
-				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
 	"name" : "BankProject",
-	"nameOnDisk" : "BankProject.exe",
+	"nameOnDisk" : "BankProject",
 	"paths" : 
 	{
 		"build" : ".",

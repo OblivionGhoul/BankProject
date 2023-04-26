@@ -1,3 +1,0 @@
-C:\Users\mdinh\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\BankProject.dir/objects.a
-C:\Users\mdinh\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\ar.exe qc CMakeFiles\BankProject.dir/objects.a @CMakeFiles\BankProject.dir\objects1.rsp
-C:\Users\mdinh\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\BankProject.dir/objects.a -Wl,--no-whole-archive -o BankProject.exe -Wl,--out-implib,libBankProject.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\BankProject.dir\linklibs.rsp
